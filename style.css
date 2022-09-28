@@ -190,4 +190,8 @@ footer{
     body {
       background-color: lightblue;
     }
+    footer.footer-col{
+        width: 100%;
+        padding: 0 15px;
+        }
   }
