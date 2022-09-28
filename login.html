@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Login Page</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">BigBlog</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Health<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Exercise</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Yoga</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Finance</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav><br><br><br><br><br><br><br>
+  <br>
+  
+
+  <div class="container">
+    <h2>Login Form</h2>
+    <form action="Login" name="login" method="post">
+      <div class="form-group">
+        <label for="email">Enter Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Enter Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"required>
+      </div>
+      
+      <div class="checkbox">
+        <label><input type="checkbox" name="rememberme"> Remember Me</label>
+      </div>
+      <button type="submit" class="btn btn-info">Log In</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
