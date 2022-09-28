@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resoline-Best Fast Food Restaurant</title>
+    <link rel="shortcut icon"type="image/png" href="images/logobrand.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="body.css">
+   
+</head>
+<body>
+<nav class="navbar">
+<div class="nav">
+    <a href="index.php"> <img src="" alt=""></a>  
+    <div class="nav-items">
+          <!-- search bar -->
+          <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
+          <div class="search">   
+                <input type="search" name="search" class="search-box" placeholder="Search food here.." required>
+                <button class="search-btn">Search</button>
+          </div> 
+          </form> 
+     <!-- search ends -->    
+        <a href="admin/login.php"><img src="images/user.png" alt=""></a>
+      
+    </div>
+    </div>
+    <ul class="links-container">
+    <li class="link-item">  <a href="index.php"class=link>Home</a></li>
+    <li class="link-item"><a href="fastfood.php"class=link>Fast Food</a></li>
+    <li class="link-item"><a href="breakfast.php"class=link>Breakfast</a></li>
+    <li class="link-item"><a href="drinks.php"class=link>Drinks</a></li>
+
+     </ul>      
+     </nav>       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <footer class="footer">
+        <div class="footerbody">
+        
+                     <div class="row">
+                         <div class="footer-col">
+                             <h4>Resoline</h4>
+                             <ul>
+                                 <li><a href="./about.php">About us </a> </li>
+                                 <li><a href="./contact.php">Contact us </a> </li>
+                                 <li><a href="#">Our services</a></li>
+                                 <li><a href="#">Privacy policy</a></li>
+                                 <li><a href="#">Careers</a></li>
+                             </ul>
+                         </div>
+                         <div class="footer-col">
+                             <h4> help</h4>
+                             <ul>
+                                 <li><a href="#" >See FAQs</a> </li>
+                                 <li><a href="#">Get Support</a></li>
+                                 <li><a href="#">Complain</a></li>
+                                 <li><a href="#">Orders</a></li>
+                             </ul>
+                         </div>
+                         <div class="footer-col">
+                             <h4>Categories</h4>
+                             <ul>
+                                 <li><a href="./breakfast.php">Break Fast</a></li>
+                                 <li><a href="./drinks.php">Drinks</a></li>
+                                 <li><a href="./fastfood.php">Fast Food</a></li>
+                                 <li><a href="#">Food Packets</a></li>
+                                 
+                             </ul>
+                         </div>
+                         <div class="footer-col">
+                             <h4>Connect us </h4>
+                             <div class="social-links">
+                            
+                             <a href="https://www.youtube.com/"target="_blank"><i class="fab fa-youtube"></i></a>
+                                 <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                 <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                             </ul>
+                             </div>
+                         </div>
+                         <div class="footer-col">
+                             <h4>Download App</h4>
+                             <a href="#"><img src="./images/apple-store2.png" alt="hi"></a>  <br><br>
+                 
+                                 <a href="#"> <img src="./images/play-store2.png" alt="hi"></a>
+                                 
+                         </div>
+                        
+                     </div>
+                 </div>  
+                 <div class="footerbar"><?php $year = date("Y"); ?>
+                 <h4>&#169; <?php echo $year;?>- resoline.com</h4>
+                 
+                 </div> 
+        </footer>
+        <script src="./js/home.js"></script>
+        </body>
+        </html>
